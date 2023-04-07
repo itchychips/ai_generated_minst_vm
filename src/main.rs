@@ -70,7 +70,7 @@ impl MinstVm {
 
 fn main() {
     // A simple program that computes (5 + 2) * 3
-    let program = vec![2, 5, 2, 3, 3, 4, 6, 7];
+    let program = vec![2, 5, 2, 2, 3, 2, 3, 5, 7];
 
     let mut vm = MinstVm::new(program);
     let result = vm.run();
